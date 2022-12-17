@@ -1,38 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tubnet-tweaks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "TubNet Tweaks",
+  "description": "TubNet Tweaks is a mod that improves the TubNet user interface.",
   "authors": [
-    "Me!"
+    "pedro9006"
+  ],
+  "contributors": [
+    "ApricotFarmer11 (loader)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/TubNet-Community/tubnet-tweaks-fabric"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
+  "icon": "assets/tubtweaks/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "environment": "client",
   "mixins": [
-    "modid.mixins.json"
+    "tweaks.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19.2",
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "tubion": "*"
   }
 }

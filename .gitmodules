@@ -1,0 +1,4 @@
+[submodule "resources"]
+	path = src/main/resources/assets/minecraft
+	url = https://github.com/Tubnom/tubnet-tweaks
+	branch = fabric-root
