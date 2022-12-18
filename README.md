@@ -6,13 +6,14 @@ A Minecraft mod which loads [TubNet Tweaks](https://github.com/Tubnom/tubnet-twe
 
 ## Installing
 ### For players
-This mod is included with [Tubion](https://github.com/Tubnom/Tubion) 0.0.4 and above. If you do not want to install tubion, there will be a mod download eventually (coming soon)
+This mod is included with [Tubion](https://github.com/ApricotFarmer11/Tubion) 0.0.4 and above. If you do not want to install tubion, there will be a mod download eventually (coming soon)
 
-## For developers
+### For developers
 This project requires Java 17. It is recommended to use JetBrains Runtime as you can hot-swap mixins infinitely.
 
 ```bash
 git clone https://github.com/Tubnom/tubnet-tweaks-fabric
+cd tubnet-tweaks-fabric
 # Ready the mod workspace
 ./gradlew # 'gradlew' if you are on windows
 ```
